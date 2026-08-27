@@ -1,0 +1,5 @@
+{"id":"anomaly-detection","question":"How does playback anomaly detection compare metrics to baselines, and what happens after a threshold is crossed?","expected_sources":["playback_analytics.md"],"expected_answer_contains":["Glue","baselines","ticket"],"top_k":3}
+{"id":"historical-analysis","question":"Which system handles long-retention historical playback analysis?","expected_sources":["playback_analytics.md"],"expected_answer_contains":["Athena"],"top_k":3}
+{"id":"consumer-lag","question":"What should an on-call engineer check when stream consumer lag rises?","expected_sources":["operations_runbook.md"],"expected_answer_contains":["partition","Druid"],"top_k":3}
+{"id":"rollout-order","question":"What is the feature rollout order from Admin onward?","expected_sources":["access_control.md"],"expected_answer_contains":["Admin","BraveHearts","Unlimited"],"top_k":3}
+{"id":"limited-users","question":"What can Limited users access?","expected_sources":["access_control.md"],"expected_answer_contains":["approved"],"top_k":3}

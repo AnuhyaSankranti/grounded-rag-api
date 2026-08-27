@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - mini-sia-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  mini-sia-data:
+
